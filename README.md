@@ -11,15 +11,13 @@ View this on [GitHub Pages](https://supercontainers.github.io/ecp2020-tutorial/)
 
 Half-day Tutorial Session
 
-Venue: Supercomputing Conference 2019 (SC19')
+Venue: ECP Annual Meeting 2020
 
-Date: Sunday, 17 November 2019 1:30pm - 5pm
+Date: Wednesday, February 5th 2019  2:30pm - 6pm
 
-Room: 207
+Room: Champions I & II 
 
-Location: Denver, CO, USA
-
-Link: [Container Computing for HPC and Scientific Workflows @ SC19](https://ecp2020.supercomputing.org/presentation/?id=tut129&sess=sess206)
+Location: Houston, TX, USA
 
 Topic Area: Programming Models & Systems Software
 
@@ -28,11 +26,14 @@ Keywords: Containerized HPC, System Software and Runtime Systems, Scientific Sof
 ## EC2 Login
 
 hostname: tutXX.supercontainers.org
-
 user: tutorial
-
 password: HPCLinux12!
 
+## NERSC Login
+
+hostname: cori.nesrc.gov
+user: trainXXX 
+password: [provided in person]
 
 
 ## Abstract
@@ -51,7 +52,7 @@ This tutorial is supported by the Amazon AWS Machine Learning Research Awards. E
 
 After the tutorial, you can boot our tutorial image yourself on Amazon EC2 to run through the tutorial again. We recommend you use your own EC2 key and change the password.
 
-US-West-Oregon: ami-0fe12765123c6a840 
+US-West-Oregon: ami-09bd35c8089302e0d
 
 
 ### Optional Prerequisites
@@ -74,21 +75,21 @@ We have also created a Slack Team for this.  The invitation link is [here](https
 ## Schedule
 
 
-13:30 – 13:45 [Introduction to Containers in HPC](slides/ecp2020_tutorial_intro.pdf) (Younge)
+14:00 – 14:30 [Introduction to Containers in HPC](slides/ecp2020_tutorial_intro.pdf) (Younge)
 
-13:45 – 14:15 [How to build your first Docker container](/01-hands-on.md) (Canon)
+14:30– 15:00 [How to build your first Docker container](/01-hands-on.md) (Canon)
 
-14:15 – 14:45 [How to deploy a container on a supercomputer](/02-hands-on.md) (Canon)
+15:00 – 15:30 [How to deploy a container on a supercomputer](/02-hands-on.md) (Canon)
 
-14:45 – 15:00 [Best Practices](slides/ecp2020_tutorial_bestpract.pdf) (Canon)
+15:30 – 15:45 [Best Practices](slides/ecp2020_tutorial_bestpract.pdf) (Canon)
 
-15:00 – 15:30              -- Break –
+16:00 – 16:30              -- Break –
 
-15:30 – 16:00 [Running an HPC app on the E4S container](slides/E4S_SC19.pdf) (Shende)
+16:30 – 17:00 [Running an HPC app on the E4S container](slides/E4S_SC19.pdf) (Shende)
 
-16:00 - 16:30 [How to build a Singularity container image](/03-hands-on.md) (Arango)
+17:00 - 17:30 [How to build a Singularity container image](/03-hands-on.md) (Arango)
 
-16:50 - 17:00 [Success Stories & Summary](slides/ecp2020_tut_summary.pdf) (Canon)
+17:30 - 18:00 [Success Stories & Summary](slides/ecp2020_tut_summary.pdf) (Canon)
 
 
 
