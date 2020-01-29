@@ -13,7 +13,7 @@ Half-day Tutorial Session
 
 Venue: ECP Annual Meeting 2020
 
-Date: Wednesday, February 5th 2019  2:30pm - 6pm
+Date: Wednesday, February 5th 2019  2:30pm - 6pm CST
 
 Room: Champions I & II 
 
@@ -23,16 +23,26 @@ Topic Area: Programming Models & Systems Software
 
 Keywords: Containerized HPC, System Software and Runtime Systems, Scientific Software Development, DevOps
 
-## EC2 Login
+
+## Tutorial Login details
+
+Appropriate login details to our EC2 VM instances and a training account to the Cori supercomputer will all be provided to you at the start of the tutorial session. Please completed the necessary forms and  replace XX with the values provided on your sheet. 
+
+### EC2 Login
+
 
 hostname: tutXX.supercontainers.org
+
 user: tutorial
+
 password: HPCLinux12!
 
-## NERSC Login
+### NERSC Login
 
 hostname: cori.nesrc.gov
-user: trainXXX 
+
+user: trainXX
+
 password: [provided in person]
 
 
