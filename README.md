@@ -97,7 +97,7 @@ We have also created a Slack Team for this.  The invitation link is [here](https
 
 16:30 – 17:00 [Running an HPC app on the E4S container](slides/E4S_SC19.pdf) (Shende)
 
-17:00 - 17:30 [How to build a Singularity container image](/03-hands-on.md) (Arango)
+17:00 - 17:30 [How to build a Singularity container image](/03-hands-on.md) (Younge)
 
 17:30 - 18:00 [Success Stories & Summary](slides/ecp2020_tut_summary.pdf) (Canon)
 
