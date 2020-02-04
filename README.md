@@ -85,7 +85,7 @@ We have also created a Slack Team for this.  The invitation link is [here](https
 ## Schedule
 
 
-14:00 – 14:30 [Introduction to Containers in HPC](slides/ecp2020_tutorial_intro.pdf) (Younge)
+14:00 – 14:30 [Introduction to Containers in HPC](https://drive.google.com/file/d/11eb0_RsUbSTDOvRejtg72MRh1gkW_q0h/view?usp=sharing) (Younge)
 
 14:30– 15:00 [How to build your first Docker container](/01-hands-on.md) (Canon)
 
