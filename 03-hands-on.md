@@ -1,4 +1,4 @@
-/# Building and Running Containers
+## Building and Running Containers
 
 In the third hour we will build the preceding container from scratch.
 
