@@ -101,7 +101,7 @@ When your build finishes, you will have a basic Ubuntu + mpi installed container
 Now let's enter our new container and look around.
 
 ```bash
-singularity shell ubuntu_mpi.sif
+singularity shell ubuntu-mpi.sif
 ```
 
 Depending on the environment on your host system you may see your prompt change. Let's look at what OS is running inside the container.
@@ -125,10 +125,10 @@ Let's try a few more commands:
 
 ```bash
 $ singularity ubuntu_mpi:~> whoami
-eduardo
+tutorial
 
 $ singularity ubuntu_mpi:~> hostname
-eduardo-laptop
+ip-172-31-15-228
 ```
 
 Now let's compile a MPI bin and create a MPI ready container
@@ -230,5 +230,5 @@ Now let's run our container!
 
 ```bash
 singularity run hellompi.sif
-hello from 0 of 1 on Eduardos-MacBook-Pro.local
+hello from 0 of 1 on ip-172-31-15-228
 ```
