@@ -64,10 +64,10 @@ cat << EOF > submit.sl
 #!/bin/bash
 #SBATCH -N 1 -C knl
 #SBATCH -q regular
-#SBATCH --image ubuntu:latest
+#SBATCH --image ubuntu:14.04
 #SBATCH --reservation ecp20cont
 
-srun -N 1 shifter /app/app.py
+srun -N 1 shifter lsb_release -a
 EOF
 ```
 
