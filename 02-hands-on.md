@@ -43,7 +43,7 @@ $ exit
 Use SLURM salloc and shifter to use the image on a batch node.
 
 ```bash
-salloc -N 1 -C haswell -q interactive --reservation ecp2020cont --image ubuntu:14.04
+salloc -N 1 -C knl -q regular --reservation ecp20cont --image ubuntu:14.04
 ... wait for prompt ...
 shifter bash
 ```
@@ -62,10 +62,10 @@ Now create a batch submission script and try running a batch job with shifter.  
 ```bash
 cat << EOF > submit.sl
 #!/bin/bash
-#SBATCH -N 1 -C haswell
-#SBATCH -q interactive
+#SBATCH -N 1 -C knl
+#SBATCH -q regular
 #SBATCH --image ubuntu:latest
-#SBATCH --reservation ecp2020cont
+#SBATCH --reservation ecp20cont
 
 srun -N 1 shifter /app/app.py
 EOF
@@ -93,7 +93,7 @@ Now, return to your Cori login, pull your image down and run it.
 ```bash
 shifterimg pull <mydockerid>/hellompi:latest
 #Wait for it to complete
-salloc -N 2 -C haswell -q interactive --reservation ecp2020cont --image <mydockerid>/hellompi:latest
+salloc -N 2 -C knl -q regular --reservation ecp20cont --image <mydockerid>/hellompi:latest
 # Wait for prepare_compilation_report
 # Cori has 32 physical cores per node with 2 hyper-threads per core.
 # So you can run up to 64 tasks per node.
